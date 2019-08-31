@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44d048f8f3d12a7863d755436850750a",
+    "revision": "8f76b14fee647245fa87ddc70f242d50",
     "url": "/multilang-signin-page/index.html"
   },
   {
-    "revision": "e85763690107aa25399a",
+    "revision": "a227b7b37db2668cb08d",
     "url": "/multilang-signin-page/static/css/main.462b0bd9.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/multilang-signin-page/static/js/2.e6baafbf.chunk.js"
   },
   {
-    "revision": "e85763690107aa25399a",
-    "url": "/multilang-signin-page/static/js/main.da7d85c2.chunk.js"
+    "revision": "a227b7b37db2668cb08d",
+    "url": "/multilang-signin-page/static/js/main.383bd773.chunk.js"
   },
   {
     "revision": "01db0276afb40ebe92c1",

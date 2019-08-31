@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/multilang-signin-page/static/css/main.462b0bd9.chunk.css",
-    "main.js": "/multilang-signin-page/static/js/main.da7d85c2.chunk.js",
-    "main.js.map": "/multilang-signin-page/static/js/main.da7d85c2.chunk.js.map",
+    "main.js": "/multilang-signin-page/static/js/main.383bd773.chunk.js",
+    "main.js.map": "/multilang-signin-page/static/js/main.383bd773.chunk.js.map",
     "runtime~main.js": "/multilang-signin-page/static/js/runtime~main.bc647b25.js",
     "runtime~main.js.map": "/multilang-signin-page/static/js/runtime~main.bc647b25.js.map",
     "static/js/2.e6baafbf.chunk.js": "/multilang-signin-page/static/js/2.e6baafbf.chunk.js",
     "static/js/2.e6baafbf.chunk.js.map": "/multilang-signin-page/static/js/2.e6baafbf.chunk.js.map",
     "index.html": "/multilang-signin-page/index.html",
-    "precache-manifest.148b99f45476c5a5bd3c91efce6c947c.js": "/multilang-signin-page/precache-manifest.148b99f45476c5a5bd3c91efce6c947c.js",
+    "precache-manifest.ab8020e071fc20a93e217e0560ba185e.js": "/multilang-signin-page/precache-manifest.ab8020e071fc20a93e217e0560ba185e.js",
     "service-worker.js": "/multilang-signin-page/service-worker.js",
     "static/css/main.462b0bd9.chunk.css.map": "/multilang-signin-page/static/css/main.462b0bd9.chunk.css.map"
   }
