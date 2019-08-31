@@ -15,7 +15,7 @@ export default withStyles(styles)(function Navbar(props) {
 	const { classes } = props;
 	const { language } = useContext(LanguageContext);
 	const { darkMode, toggleTheme } = useContext(ThemeContext);
-	const { search, emoji } = words[language];
+	const { search, emoji, dark } = words[language];
 
 	return (
 		<div className={classes.root}>
@@ -23,7 +23,7 @@ export default withStyles(styles)(function Navbar(props) {
 				<Toolbar>
 					<span role='img' className={classes.flag}>{emoji}</span>
 					<Typography className={classes.title} variant='h6' color='inherit'>
-						Dark Mode
+						{dark}
 					</Typography>
 					<Switch onClick={toggleTheme} />
 					<div className={classes.grow} />

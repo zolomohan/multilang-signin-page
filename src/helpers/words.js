@@ -5,7 +5,8 @@ export default {
 		remember : 'Remember Me',
 		signin   : 'Sign In',
 		search : 'Search',
-		emoji  : '🇺🇸'
+		emoji  : '🇺🇸',
+		dark: 'Dark Mode'
 	},
 	french  : {
 		email    : 'Addresse Electronique',
@@ -13,7 +14,8 @@ export default {
 		remember : 'Souviens-toi de moi',
 		signin   : 'Se connecter',
 		search : 'chercher',
-		emoji  : '🇫🇷'
+		emoji  : '🇫🇷',
+		dark: 'Mode sombre'
 	},
 	spanish : {
 		email    : 'Sorreo electrónico',
@@ -21,6 +23,7 @@ export default {
 		remember : 'Recuérdame',
 		signin   : 'Registrarse',
 		search : 'Buscar',
-		emoji  : '🇪🇸'
+		emoji  : '🇪🇸',
+		dark: 'Modo oscuro'
 	}
 };
