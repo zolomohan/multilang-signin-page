@@ -16,7 +16,7 @@ import styles from './styles/FormStyles';
 import { LanguageContext } from './contexts/LanguageContext';
 import words from './helpers/words';
 
-function Form(props) {
+export default withStyles(styles)(function Form(props) {
 	const { setLanguage, language } = useContext(LanguageContext);
 	const { classes } = props;
 	const { email, password, remember, signin } = words[language];
@@ -49,6 +49,4 @@ function Form(props) {
 			</Paper>
 		</main>
 	);
-}
-
-export default withStyles(styles)(Form);
+});

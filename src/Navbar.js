@@ -12,7 +12,7 @@ import { ThemeContext } from './contexts/ThemeContext';
 import words from './helpers/words';
 import { LanguageContext } from './contexts/LanguageContext';
 
-function Navbar(props) {
+export default withStyles(styles)(function Navbar(props) {
 	const { classes } = props;
 	const { language } = useContext(LanguageContext);
 	const { darkMode, toggleTheme } = useContext(ThemeContext);
@@ -46,6 +46,4 @@ function Navbar(props) {
 			</AppBar>
 		</div>
 	);
-}
-
-export default withStyles(styles)(Navbar);
+});
