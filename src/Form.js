@@ -14,7 +14,7 @@ import Select from '@material-ui/core/Select';
 import withStyles from '@material-ui/core/styles/withStyles';
 import styles from './styles/FormStyles';
 import { LanguageContext } from './contexts/LanguageContext';
-import words from './words';
+import words from './helpers/words';
 
 function Form(props) {
 	const { changeLanguage, language } = useContext(LanguageContext);

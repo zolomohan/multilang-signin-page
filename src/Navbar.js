@@ -10,7 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 import styles from './styles/NavBarStyles';
 import { ThemeContext } from './contexts/ThemeContext';
 import { withLanguageContext } from './contexts/LanguageContext';
-import words from './words';
+import words from './helpers/words';
 
 class Navbar extends Component {
 	static contextType = ThemeContext;
