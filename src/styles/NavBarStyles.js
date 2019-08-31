@@ -11,6 +11,10 @@ export default (theme) => ({
 		marginLeft  : -12,
 		marginRight : 20
 	},
+	flag       : {
+		margin   : '1rem',
+		fontSize : '1.5rem'
+	},
 	title      : {
 		display                      : 'none',
 		[theme.breakpoints.up('sm')]: {

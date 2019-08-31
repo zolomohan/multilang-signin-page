@@ -16,15 +16,13 @@ export default withStyles(styles)(function Navbar(props) {
 	const { classes } = props;
 	const { language } = useContext(LanguageContext);
 	const { darkMode, toggleTheme } = useContext(ThemeContext);
-	const { search, signin, emoji } = words[language];
+	const { search, emoji } = words[language];
 
 	return (
 		<div className={classes.root}>
 			<AppBar position='static' color={darkMode ? 'primary' : 'default'}>
 				<Toolbar>
-					<IconButton className={classes.menuButton} color='inherit'>
-						<span role='img'>{emoji}</span>
-					</IconButton>
+					<span role='img' className={classes.flag}>{emoji}</span>
 					<Typography className={classes.title} variant='h6' color='inherit'>
 						Dark Mode
 					</Typography>
