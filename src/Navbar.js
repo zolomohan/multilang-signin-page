@@ -26,7 +26,7 @@ export default withStyles(styles)(function Navbar(props) {
 						<span role='img'>{emoji}</span>
 					</IconButton>
 					<Typography className={classes.title} variant='h6' color='inherit'>
-						{signin}
+						Dark Mode
 					</Typography>
 					<Switch onClick={toggleTheme} />
 					<div className={classes.grow} />
