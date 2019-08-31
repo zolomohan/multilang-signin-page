@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/multilang-signin-page/static/css/main.462b0bd9.chunk.css",
+    "main.js": "/multilang-signin-page/static/js/main.90630f7f.chunk.js",
+    "main.js.map": "/multilang-signin-page/static/js/main.90630f7f.chunk.js.map",
+    "runtime~main.js": "/multilang-signin-page/static/js/runtime~main.bc647b25.js",
+    "runtime~main.js.map": "/multilang-signin-page/static/js/runtime~main.bc647b25.js.map",
+    "static/js/2.15c552e0.chunk.js": "/multilang-signin-page/static/js/2.15c552e0.chunk.js",
+    "static/js/2.15c552e0.chunk.js.map": "/multilang-signin-page/static/js/2.15c552e0.chunk.js.map",
+    "index.html": "/multilang-signin-page/index.html",
+    "precache-manifest.6b7faec9961f321abff8582a3b66313a.js": "/multilang-signin-page/precache-manifest.6b7faec9961f321abff8582a3b66313a.js",
+    "service-worker.js": "/multilang-signin-page/service-worker.js",
+    "static/css/main.462b0bd9.chunk.css.map": "/multilang-signin-page/static/css/main.462b0bd9.chunk.css.map"
+  }
+}
