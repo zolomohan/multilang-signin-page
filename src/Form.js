@@ -39,7 +39,7 @@ export default withStyles(styles)(function Form(props) {
 					</FormControl>
 					<FormControl margin='normal' required fullWidth>
 						<InputLabel htmlFor='password'>{password}</InputLabel>
-						<Input id='password' name='password' />
+						<Input id='password' name='password' type='password' />
 					</FormControl>
 					<FormControlLabel control={<Checkbox color='primary' />} label={remember} />
 					<Button variant='contained' type='submit' fullWidth color='primary' className={classes.submit}>
