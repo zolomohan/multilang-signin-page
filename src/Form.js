@@ -14,27 +14,7 @@ import Select from '@material-ui/core/Select';
 import withStyles from '@material-ui/core/styles/withStyles';
 import styles from './styles/FormStyles';
 import { LanguageContext } from './contexts/LanguageContext';
-
-const words = {
-	english : {
-		email    : 'Email',
-		password : 'Password',
-		remember : 'Remember Me',
-		signin   : 'Sign In'
-	},
-	french  : {
-		email    : 'Addresse Electronique',
-		password : 'Mot de passe',
-		remember : 'Souviens-toi de moi',
-		signin   : 'Se connecter'
-	},
-	spanish : {
-		email    : 'Sorreo electrónico',
-		password : 'Sontraseña',
-		remember : 'Recuérdame',
-		signin   : 'Registrarse'
-	}
-};
+import words from './words';
 
 function Form(props) {
 	const { changeLanguage, language } = useContext(LanguageContext);

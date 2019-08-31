@@ -10,24 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 import styles from './styles/NavBarStyles';
 import { ThemeContext } from './contexts/ThemeContext';
 import { withLanguageContext } from './contexts/LanguageContext';
-
-const words = {
-	english : {
-		search : 'Search',
-		signin : 'Sign In',
-		emoji  : '🇺🇸'
-	},
-	spanish : {
-		search : 'Buscar',
-		signin : 'Registrarse',
-		emoji  : '🇪🇸'
-	},
-	french  : {
-		search : 'chercher',
-		signin : 'Se connecter',
-		emoji  : '🇫🇷'
-	}
-};
+import words from './words';
 
 class Navbar extends Component {
 	static contextType = ThemeContext;
