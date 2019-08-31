@@ -4,7 +4,7 @@ export const LanguageContext = createContext();
 
 export class LanguageProvider extends Component {
 	state = {
-		language : 'en'
+		language : 'english'
 	};
 
 	changeLanguage = (newLanguage) => this.setState({ language: newLanguage });
