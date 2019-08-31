@@ -35,7 +35,7 @@ export default withStyles(styles)(function Form(props) {
 				<form className={classes.form}>
 					<FormControl margin='normal' required fullWidth>
 						<InputLabel htmlFor='email'>{email}</InputLabel>
-						<Input id='email' name='email' autoFocus />
+						<Input id='email' name='email' type='email' autoFocus />
 					</FormControl>
 					<FormControl margin='normal' required fullWidth>
 						<InputLabel htmlFor='password'>{password}</InputLabel>
